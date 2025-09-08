@@ -1,0 +1,25 @@
+# PRIME NUMBERS
+prime_numbers = [i for i in range(0, 50) if all(i % n != 0 for n in range(2, int(i**0.5) + 1))]
+print(prime_numbers)
+
+# CHATBOT
+
+print ("Hi there, Welcome to windy chatbot. How may I help you today? ")
+print("What would you like to know?")
+
+
+while True:
+    question = (input("...")).lower()
+
+    if  "what is data science" in question:
+        print("Good question. Data Science is the field that combines Statistics, Programming, Domain knowledge, Machine learning & AI, to extract insights and knowledge from data")
+    elif  "what is ai in full" in question:
+        print("Artificial Intelligence")
+    elif  "what is ai" in question:
+        print("It is the simulation of human intelligence by machines.")
+    elif "what is python" in question:
+        print("Python is the most popular programming language for AI and Data Science due to its simplicity and rich libraries.")
+    else:
+        print("I dont have the answer to this question")
+
+
