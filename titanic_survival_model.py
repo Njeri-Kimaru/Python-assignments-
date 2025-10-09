@@ -95,3 +95,7 @@ print(predictions.head(10))
 
 print("\n===== SURVIVAL SUMMARY (For our samples) =====")
 print(predictions['Prediction_Label'].value_counts())
+
+# TO CONVERT INTO IPYNB:
+# IN GIT -- pip install pip2j
+# then p2j titanic_survival_model.py

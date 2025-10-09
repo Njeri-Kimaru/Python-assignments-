@@ -34,3 +34,4 @@ matplotlib == 3.9.0
 seaborn == 0.13.2
 SciPy == 1.16.2
 scikit-learn == 1.7.2
+statsmodels == 0.14.5
